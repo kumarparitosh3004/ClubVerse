@@ -32,21 +32,27 @@ function ContactForm() {
             <i className="fas fa-map-marker-alt"></i>
             <div>
               <h3>Location</h3>
-              <p>VIT University Campus</p>
+              <a
+                href="https://maps.google.com/?q=VIT%20University%20Campus"
+                target="_blank"
+                rel="noreferrer"
+              >
+                VIT University Campus
+              </a>
             </div>
           </div>
           <div className="info-item">
             <i className="fas fa-envelope"></i>
             <div>
               <h3>Email</h3>
-              <p>vitclubs@vit.ac.in</p>
+              <a href="mailto:vitclubs@vit.ac.in">vitclubs@vit.ac.in</a>
             </div>
           </div>
           <div className="info-item">
             <i className="fas fa-phone"></i>
             <div>
               <h3>Phone</h3>
-              <p>+91 123 456 7890</p>
+              <a href="tel:+911234567890">+91 123 456 7890</a>
             </div>
           </div>
         </div>
@@ -57,7 +63,7 @@ function ContactForm() {
               <i className="fas fa-check-circle"></i>
               <h3>Thank you for your message!</h3>
               <p>We will get back to you soon.</p>
-              <button onClick={() => setSubmitted(false)}>Send Another Message</button>
+              <button type="button" onClick={() => setSubmitted(false)}>Send Another Message</button>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="contact-form">

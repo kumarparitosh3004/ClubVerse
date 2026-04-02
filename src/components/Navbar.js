@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import vitLogo from '../assets/vit-logo.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,13 +24,22 @@ function Navbar() {
     }
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsOpen(false);
+  };
+
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      <div className="logo">
-        <h1>VITxCC</h1>
-      </div>
+      <button className="logo" type="button" onClick={scrollToTop}>
+        <img className="logo-image" src={vitLogo} alt="VIT logo" />
+        <span className="logo-text">
+          <span className="logo-title">CLUBVERSE</span>
+          <span className="logo-subtitle">INSTITUTIONAL CLUBS PORTAL</span>
+        </span>
+      </button>
       
-      <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+      <button className="hamburger" type="button" onClick={() => setIsOpen(!isOpen)}>
         <FontAwesomeIcon icon={faBars} />
       </button>
 
