@@ -40,7 +40,6 @@ The platform follows a **full-stack architecture**, combining a React frontend w
 ---
 
 ## Project Structure
-## Project Structure
 
 ```text
 clubverse/
