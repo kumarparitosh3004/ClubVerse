@@ -41,33 +41,41 @@ The platform follows a **full-stack architecture**, combining a React frontend w
 
 ## Project Structure
 clubverse/
+│
 ├── frontend/
-│ ├── public/
-│ │ ├── index.html
-│ │ └── manifest.json
-│ ├── src/
-│ │ ├── assets/
-│ │ │ ├── clubs/
-│ │ │ └── vit-logo.png
-│ │ ├── components/
-│ │ │ ├── ClubList.js
-│ │ │ ├── ContactForm.js
-│ │ │ └── Navbar.js
-│ │ ├── pages/
-│ │ │ └── ClubDetails.js
-│ │ ├── App.js
-│ │ ├── App.css
-│ │ ├── index.js
-│ │ └── index.css
-│ └── package.json
+│   ├── public/
+│   │   ├── index.html
+│   │   └── manifest.json
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── clubs/
+│   │   │   └── vit-logo.png
+│   │   │
+│   │   ├── components/
+│   │   │   ├── ClubList.js
+│   │   │   ├── ContactForm.js
+│   │   │   └── Navbar.js
+│   │   │
+│   │   ├── pages/
+│   │   │   └── ClubDetails.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   │   └── index.css
+│   │
+│   └── package.json
 │
 ├── backend/
-│ ├── data/
-│ │ └── clubs.json
-│ ├── routes/
-│ │ └── clubs.js
-│ ├── server.js
-│ └── package.json
+│   ├── data/
+│   │   └── clubs.json
+│   │
+│   ├── routes/
+│   │   └── clubs.js
+│   │
+│   ├── server.js
+│   └── package.json
 │
 └── README.md
 
