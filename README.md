@@ -39,38 +39,38 @@ The website includes:
 ---
 
 ## Project Structure
+```
 clubverse/
 ├── public/
-│ ├── index.html
-│ └── manifest.json
+│   ├── index.html
+│   └── manifest.json
 ├── src/
-│ ├── assets/
-│ │ ├── clubs/
-│ │ └── vit-logo.png
-│ ├── components/
-│ │ ├── ClubList.js
-│ │ ├── ContactForm.js
-│ │ └── Navbar.js
-│ ├── data/
-│ ├── pages/
-│ │ └── ClubDetails.js
-│ ├── App.css
-│ ├── App.js
-│ ├── index.css
-│ └── index.js
+│   ├── assets/
+│   │   ├── clubs/
+│   │   └── vit-logo.png
+│   ├── components/
+│   │   ├── ClubList.js
+│   │   ├── ContactForm.js
+│   │   └── Navbar.js
+│   ├── data/
+│   ├── pages/
+│   │   └── ClubDetails.js
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
 ├── backend/
-│ ├── data/
-│ │ └── clubs.json
-│ ├── routes/
-│ │ └── clubs.js
-│ ├── server.js
-│ ├── package.json
-│ └── package-lock.json
+│   ├── data/
+│   │   └── clubs.json
+│   ├── routes/
+│   │   └── clubs.js
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
 ├── package.json
 ├── package-lock.json
 └── README.md
-
----
+```
 
 ## Main Features
 
