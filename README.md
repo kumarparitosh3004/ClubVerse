@@ -24,7 +24,7 @@ The website includes:
 ### Frontend
 - React 18  
 - React Router DOM  
-- HTML, CSS, JavaScript  
+- HTML, CSS, JavaScript 
 - Font Awesome  
 
 ### Backend
